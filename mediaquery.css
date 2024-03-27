@@ -1,0 +1,194 @@
+@media screen and (max-width:996px) {
+    .aboutme p {
+        font-size: 20px;
+    }
+
+    .main>marquee>div>p {
+        font-size: 45px;
+    }
+
+    div.cont>img {
+        width: 400px;
+    }
+
+    div.right,
+    div.left {
+        gap: 10dvh;
+    }
+
+    div.left {
+        transform: translateY(10dvh);
+
+    }
+
+    div.offer {
+        transform: translateY(35%);
+    }
+    div.info{
+        gap: 40px;
+    }
+    textarea {
+        padding: 10px 420px 0px 6px;
+    }
+    div.info>div>input{
+        padding: 10px 200px 10px 6px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home>p {
+        font-size: 40px;
+        height: 60dvh;
+    }
+
+    .aboutme p {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    div.cont>img {
+        width: 300px;
+    }
+
+    div.project {
+        gap: 40px;
+    }
+    div.title>h2{
+        font-size: 45px;
+    }
+    div.title>p{
+        font-size: 20px;
+    }
+   div.text>h3{
+        font-size: 25px !important;
+    }
+    div.text>p{
+        font-size: 15px !important;
+    }
+    div.mate>div:nth-child(2)>h2 {
+        font-size: 30px;
+    }
+    textarea {
+        padding: 10px 220px 0px 6px;
+    }
+    div.info>div>input{
+        padding: 10px 100px 10px 6px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    #home>.home>nav {
+        padding: 20px;
+    }
+
+    div.about {
+        flex-direction: column;
+    }
+
+    div.about div {
+        width: 100%;
+    }
+
+    .main>marquee>div>p {
+        font-size: 35px;
+    }
+
+    .main>marquee>div>img {
+        width: 40px;
+    }
+
+    div.project{
+        flex-direction: column;
+    }
+    div.cont>img{
+        width: 100%;
+    }
+    .cont {
+        width: 100%;
+    }
+
+    div.offer-heading p {
+        font-size: 20px;
+    }
+
+    div.offer-heading h2 {
+        font-size: 35px;
+    }
+
+    div.mate {
+        flex-direction: column;
+    }
+
+    div.shade {
+        transform: translateY(50px);
+    }
+
+    div.mate>div {
+        width: 90%;
+    }
+
+    div.mate>div:nth-child(2)>p:nth-child(1) {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    div.mate>div:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    div.footer-heading h2 {
+        font-size: 25px;
+    }
+    textarea {
+        padding: 10px 35px 0px 6px;
+    }
+    div.info>div>input{
+        padding: 10px 10px 10px 6px;
+    }
+    div.title>h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .home>p{
+        font-size: 32px;
+        height: 48dvh;
+    }
+    div.title>p{
+        font-size: 15px;
+    }
+    div.title>h2{
+        font-size: 30px;
+    }
+    div.project {
+        gap: 0px;
+    }
+    div.offer-heading h2 {
+        font-size: 25px;
+    }
+    div.footer-heading h2 {
+        font-size: 20px;
+    }
+    div.social{
+        gap: 20px;
+    }
+    div.social a, div.developer a{
+        font-size: 12px;
+    }
+    div.footer-heading p {
+        font-size: 15px;
+    }
+    div.info{
+        flex-direction: column;
+    }
+    div.info>div>input{
+        padding: 10px 100px 10px 6px;
+    }
+    textarea {
+        width: 100%;
+    }
+    .contactMain{
+        padding: 20px 30px;
+    }
+}
